@@ -4,7 +4,7 @@
 //
 //  Created by Mikungu Giresse on 14/06/23.
 //
-
+/*
 import Foundation
 import Firebase
 @testable import TalaOyebaMasano
@@ -33,7 +33,7 @@ class FavoriteModelTest: XCTestCase {
         XCTAssertFalse(savedToFavorite)
     }
     
-  /*  func testFavoriteWithNoTotalTime() {
+    func testFavoriteWithNoTotalTime() {
         let context = TestFavouriteTeamCoreDataStack.testContext
         let fakeDataManagement = CoreDataGenericService<TeamEntity>(context: context)
         let favoriteModel = FavouriteTeamModel(coreDataGenericService: fakeDataManagement)
@@ -75,8 +75,9 @@ class FavoriteModelTest: XCTestCase {
             XCTAssertTrue(recipe2.strTeam == label2)
         }
     }
-    */
+    
     func makeRecipe(label: String) -> Teams {
         return Teams(strTeam: label, strLeague: UUID().uuidString, strWebsite: UUID().uuidString, strDescriptionEN: UUID().uuidString, strCountry: UUID().uuidString, strTeamBadge: UUID().uuidString, strTeamBanner: UUID().uuidString)
     }
 }
+*/

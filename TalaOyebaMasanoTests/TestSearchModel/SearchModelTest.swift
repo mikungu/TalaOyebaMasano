@@ -6,3 +6,34 @@
 //
 
 import Foundation
+import XCTest
+import Firebase
+@testable import TalaOyebaMasano
+
+final class SearchModelTest: XCTestCase {
+    
+    //MARK: -Accessible
+    let expectation = XCTestExpectation(description: "Wait for queue change")
+    //MARK: -Test
+    func testModelDecode () {
+        
+        let searchModel = SearchModel(httpClient: FakeResponseData())
+        
+        searchModel.getTeamsLeague { result in
+            switch result {
+            case .success(let value):
+                print(value)
+                XCTAssertTrue(true)
+                XCTAssertEqual(value[0].strTeam, "Ajaccio")
+                XCTAssertEqual(value[0].strCountry, "France")
+                XCTAssertNotEqual(value[0].strCountry, "England")
+                self.expectation.fulfill()
+            case .failure(let error):
+                print(error)
+                XCTAssertFalse(true)
+                XCTFail("Something wrong with my model")
+            }
+        }
+    }
+    
+}

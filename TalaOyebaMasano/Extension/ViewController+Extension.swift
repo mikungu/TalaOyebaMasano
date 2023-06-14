@@ -7,23 +7,23 @@
 
 import UIKit
 
-class ViewController_Extension: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+extension UIViewController {
+    
+    func displayAlert(title: String, message: String, preferredStyle: UIAlertController.Style) {
+        let alertVC = UIAlertController(title: title, message: message, preferredStyle: preferredStyle)
+        alertVC.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
+        present(alertVC, animated: true, completion: nil)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func createSpinnerFooter () -> UIView {
+        let footerView = UIView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 200))
+        let spinner = UIActivityIndicatorView()
+        spinner.color = .black
+        spinner.center = footerView.center
+        footerView.addSubview(spinner)
+        spinner.startAnimating()
+        
+        return footerView
     }
-    */
-
 }
+

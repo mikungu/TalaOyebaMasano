@@ -1,0 +1,6 @@
+framework module Pods_TalaOyebaMasano_TalaOyebaMasanoUITests {
+  umbrella header "Pods-TalaOyebaMasano-TalaOyebaMasanoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

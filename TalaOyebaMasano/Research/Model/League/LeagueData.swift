@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct LeagueData: Decodable {
+    let leagues: [Leagues]
+}
+struct Leagues: Decodable {
+    let strLeague: String
+    let strSport: String
+}

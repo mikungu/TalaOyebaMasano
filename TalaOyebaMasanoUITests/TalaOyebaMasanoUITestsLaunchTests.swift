@@ -4,7 +4,7 @@
 //
 //  Created by Mikungu Giresse on 14/06/23.
 //
-
+/*
 import XCTest
 
 final class TalaOyebaMasanoUITestsLaunchTests: XCTestCase {
@@ -30,3 +30,4 @@ final class TalaOyebaMasanoUITestsLaunchTests: XCTestCase {
         add(attachment)
     }
 }
+*/

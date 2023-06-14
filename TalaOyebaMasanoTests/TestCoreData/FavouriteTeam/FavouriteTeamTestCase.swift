@@ -4,10 +4,10 @@
 //
 //  Created by Mikungu Giresse on 14/06/23.
 //
-/*
+
 import Foundation
-import Firebase
 @testable import TalaOyebaMasano
+import Firebase
 import CoreData
 import XCTest
 
@@ -80,4 +80,5 @@ class FavoriteModelTest: XCTestCase {
         return Teams(strTeam: label, strLeague: UUID().uuidString, strWebsite: UUID().uuidString, strDescriptionEN: UUID().uuidString, strCountry: UUID().uuidString, strTeamBadge: UUID().uuidString, strTeamBanner: UUID().uuidString)
     }
 }
-*/
+
+

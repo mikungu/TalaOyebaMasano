@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17343496B9407E3D92E3418B /* Pods_TalaOyebaMasano.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5ABBB89206B030F92EC46BD /* Pods_TalaOyebaMasano.framework */; };
-		9803B5EFA970B1C7C47502CF /* Pods_TalaOyebaMasanoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D14CE5F5F5DE410D9BA8EB7 /* Pods_TalaOyebaMasanoTests.framework */; };
-		BF302CA892B42EB65D24B065 /* Pods_TalaOyebaMasano_TalaOyebaMasanoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9564D42A3EBFEFBC4FE4DE23 /* Pods_TalaOyebaMasano_TalaOyebaMasanoUITests.framework */; };
 		DC61DA252A39AEA200B0D31A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC61DA242A39AEA200B0D31A /* AppDelegate.swift */; };
 		DC61DA272A39AEA200B0D31A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC61DA262A39AEA200B0D31A /* SceneDelegate.swift */; };
 		DC61DA2C2A39AEA200B0D31A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC61DA2A2A39AEA200B0D31A /* Main.storyboard */; };
@@ -58,6 +55,7 @@
 		DC61DAC32A39CBE000B0D31A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = DC61DAC22A39CBE000B0D31A /* FirebaseAnalytics */; };
 		DC61DAC52A39CBEB00B0D31A /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = DC61DAC42A39CBEB00B0D31A /* FirebaseCrashlytics */; };
 		DC62415A2A3A2C54002CEFC9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC6241592A3A2C54002CEFC9 /* GoogleService-Info.plist */; };
+		DC62415D2A3A30F0002CEFC9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DC62415C2A3A30F0002CEFC9 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,15 +76,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11F5D8A3A6615F09D44F38DC /* Pods-TalaOyebaMasano.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalaOyebaMasano.debug.xcconfig"; path = "Target Support Files/Pods-TalaOyebaMasano/Pods-TalaOyebaMasano.debug.xcconfig"; sourceTree = "<group>"; };
-		1C15A30B154B4DF82E856AA5 /* Pods-TalaOyebaMasano-TalaOyebaMasanoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalaOyebaMasano-TalaOyebaMasanoUITests.release.xcconfig"; path = "Target Support Files/Pods-TalaOyebaMasano-TalaOyebaMasanoUITests/Pods-TalaOyebaMasano-TalaOyebaMasanoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		2CEEB4717C9848484AB7D6F7 /* Pods-TalaOyebaMasano.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalaOyebaMasano.release.xcconfig"; path = "Target Support Files/Pods-TalaOyebaMasano/Pods-TalaOyebaMasano.release.xcconfig"; sourceTree = "<group>"; };
-		4384F974F3A181190ABD86B1 /* Pods-TalaOyebaMasanoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalaOyebaMasanoTests.release.xcconfig"; path = "Target Support Files/Pods-TalaOyebaMasanoTests/Pods-TalaOyebaMasanoTests.release.xcconfig"; sourceTree = "<group>"; };
-		6DB538BD266A12FFA6D13D06 /* Pods-TalaOyebaMasanoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalaOyebaMasanoTests.debug.xcconfig"; path = "Target Support Files/Pods-TalaOyebaMasanoTests/Pods-TalaOyebaMasanoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7D14CE5F5F5DE410D9BA8EB7 /* Pods_TalaOyebaMasanoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalaOyebaMasanoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9564D42A3EBFEFBC4FE4DE23 /* Pods_TalaOyebaMasano_TalaOyebaMasanoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalaOyebaMasano_TalaOyebaMasanoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AC68C35927B7DC73D18CCF0 /* Pods-TalaOyebaMasano-TalaOyebaMasanoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalaOyebaMasano-TalaOyebaMasanoUITests.debug.xcconfig"; path = "Target Support Files/Pods-TalaOyebaMasano-TalaOyebaMasanoUITests/Pods-TalaOyebaMasano-TalaOyebaMasanoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		C5ABBB89206B030F92EC46BD /* Pods_TalaOyebaMasano.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalaOyebaMasano.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC61DA212A39AEA200B0D31A /* TalaOyebaMasano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalaOyebaMasano.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC61DA242A39AEA200B0D31A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC61DA262A39AEA200B0D31A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -140,10 +129,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC62415D2A3A30F0002CEFC9 /* Alamofire in Frameworks */,
 				DC61DA5A2A39B29200B0D31A /* FirebaseAnalyticsSwift in Frameworks */,
 				DC61DA582A39B29200B0D31A /* FirebaseAnalytics in Frameworks */,
 				DC61DA5E2A39B29200B0D31A /* FirebaseCrashlytics in Frameworks */,
-				17343496B9407E3D92E3418B /* Pods_TalaOyebaMasano.framework in Frameworks */,
 				DC61DA5C2A39B29200B0D31A /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,7 +143,6 @@
 			files = (
 				DC61DAC52A39CBEB00B0D31A /* FirebaseCrashlytics in Frameworks */,
 				DC61DAC32A39CBE000B0D31A /* FirebaseAnalytics in Frameworks */,
-				9803B5EFA970B1C7C47502CF /* Pods_TalaOyebaMasanoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,32 +150,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF302CA892B42EB65D24B065 /* Pods_TalaOyebaMasano_TalaOyebaMasanoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		42A78145388C69606558AB26 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C5ABBB89206B030F92EC46BD /* Pods_TalaOyebaMasano.framework */,
-				9564D42A3EBFEFBC4FE4DE23 /* Pods_TalaOyebaMasano_TalaOyebaMasanoUITests.framework */,
-				7D14CE5F5F5DE410D9BA8EB7 /* Pods_TalaOyebaMasanoTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		8218551F1DDAE84A04432C5E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				11F5D8A3A6615F09D44F38DC /* Pods-TalaOyebaMasano.debug.xcconfig */,
-				2CEEB4717C9848484AB7D6F7 /* Pods-TalaOyebaMasano.release.xcconfig */,
-				9AC68C35927B7DC73D18CCF0 /* Pods-TalaOyebaMasano-TalaOyebaMasanoUITests.debug.xcconfig */,
-				1C15A30B154B4DF82E856AA5 /* Pods-TalaOyebaMasano-TalaOyebaMasanoUITests.release.xcconfig */,
-				6DB538BD266A12FFA6D13D06 /* Pods-TalaOyebaMasanoTests.debug.xcconfig */,
-				4384F974F3A181190ABD86B1 /* Pods-TalaOyebaMasanoTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -200,7 +171,6 @@
 				DC61DA442A39AEA500B0D31A /* TalaOyebaMasanoUITests */,
 				DC61DA222A39AEA200B0D31A /* Products */,
 				8218551F1DDAE84A04432C5E /* Pods */,
-				42A78145388C69606558AB26 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -453,11 +423,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC61DA4B2A39AEA500B0D31A /* Build configuration list for PBXNativeTarget "TalaOyebaMasano" */;
 			buildPhases = (
-				20AF9CE838A45C09581ECD53 /* [CP] Check Pods Manifest.lock */,
 				DC61DA1D2A39AEA200B0D31A /* Sources */,
 				DC61DA1E2A39AEA200B0D31A /* Frameworks */,
 				DC61DA1F2A39AEA200B0D31A /* Resources */,
-				F1DA85874B47C42C6474C03B /* [CP] Embed Pods Frameworks */,
 				DC61DA5F2A39B3BD00B0D31A /* ShellScript */,
 			);
 			buildRules = (
@@ -470,6 +438,7 @@
 				DC61DA592A39B29200B0D31A /* FirebaseAnalyticsSwift */,
 				DC61DA5B2A39B29200B0D31A /* FirebaseAuth */,
 				DC61DA5D2A39B29200B0D31A /* FirebaseCrashlytics */,
+				DC62415C2A3A30F0002CEFC9 /* Alamofire */,
 			);
 			productName = TalaOyebaMasano;
 			productReference = DC61DA212A39AEA200B0D31A /* TalaOyebaMasano.app */;
@@ -479,7 +448,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC61DA4E2A39AEA500B0D31A /* Build configuration list for PBXNativeTarget "TalaOyebaMasanoTests" */;
 			buildPhases = (
-				16CAC99B44E408A1054E252E /* [CP] Check Pods Manifest.lock */,
 				DC61DA332A39AEA500B0D31A /* Sources */,
 				DC61DA342A39AEA500B0D31A /* Frameworks */,
 				DC61DA352A39AEA500B0D31A /* Resources */,
@@ -502,11 +470,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC61DA512A39AEA500B0D31A /* Build configuration list for PBXNativeTarget "TalaOyebaMasanoUITests" */;
 			buildPhases = (
-				A9B1C4E06B9EB866E2F90C6B /* [CP] Check Pods Manifest.lock */,
 				DC61DA3D2A39AEA500B0D31A /* Sources */,
 				DC61DA3E2A39AEA500B0D31A /* Frameworks */,
 				DC61DA3F2A39AEA500B0D31A /* Resources */,
-				3669331FD11977C65E130BF3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -552,6 +518,7 @@
 			mainGroup = DC61DA182A39AEA200B0D31A;
 			packageReferences = (
 				DC61DA562A39B29200B0D31A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				DC62415B2A3A30F0002CEFC9 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = DC61DA222A39AEA200B0D31A /* Products */;
 			projectDirPath = "";
@@ -598,89 +565,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		16CAC99B44E408A1054E252E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TalaOyebaMasanoTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		20AF9CE838A45C09581ECD53 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TalaOyebaMasano-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3669331FD11977C65E130BF3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TalaOyebaMasano-TalaOyebaMasanoUITests/Pods-TalaOyebaMasano-TalaOyebaMasanoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TalaOyebaMasano-TalaOyebaMasanoUITests/Pods-TalaOyebaMasano-TalaOyebaMasanoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TalaOyebaMasano-TalaOyebaMasanoUITests/Pods-TalaOyebaMasano-TalaOyebaMasanoUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A9B1C4E06B9EB866E2F90C6B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TalaOyebaMasano-TalaOyebaMasanoUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		DC61DA5F2A39B3BD00B0D31A /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -699,23 +583,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
-		};
-		F1DA85874B47C42C6474C03B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TalaOyebaMasano/Pods-TalaOyebaMasano-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TalaOyebaMasano/Pods-TalaOyebaMasano-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TalaOyebaMasano/Pods-TalaOyebaMasano-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -925,7 +792,6 @@
 		};
 		DC61DA4C2A39AEA500B0D31A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11F5D8A3A6615F09D44F38DC /* Pods-TalaOyebaMasano.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -955,7 +821,6 @@
 		};
 		DC61DA4D2A39AEA500B0D31A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CEEB4717C9848484AB7D6F7 /* Pods-TalaOyebaMasano.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -985,7 +850,6 @@
 		};
 		DC61DA4F2A39AEA500B0D31A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DB538BD266A12FFA6D13D06 /* Pods-TalaOyebaMasanoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1005,7 +869,6 @@
 		};
 		DC61DA502A39AEA500B0D31A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4384F974F3A181190ABD86B1 /* Pods-TalaOyebaMasanoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1025,7 +888,6 @@
 		};
 		DC61DA522A39AEA500B0D31A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9AC68C35927B7DC73D18CCF0 /* Pods-TalaOyebaMasano-TalaOyebaMasanoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1043,7 +905,6 @@
 		};
 		DC61DA532A39AEA500B0D31A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C15A30B154B4DF82E856AA5 /* Pods-TalaOyebaMasano-TalaOyebaMasanoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1109,6 +970,14 @@
 				minimumVersion = 10.0.0;
 			};
 		};
+		DC62415B2A3A30F0002CEFC9 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1141,6 +1010,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DC61DA562A39B29200B0D31A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseCrashlytics;
+		};
+		DC62415C2A3A30F0002CEFC9 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC62415B2A3A30F0002CEFC9 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 

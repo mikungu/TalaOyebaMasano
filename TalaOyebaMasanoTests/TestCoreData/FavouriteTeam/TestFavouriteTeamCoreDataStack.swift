@@ -7,6 +7,7 @@
 
 import Foundation
 import CoreData
+import Firebase
 @testable import TalaOyebaMasano
 
 class TestFavouriteTeamCoreDataStack {

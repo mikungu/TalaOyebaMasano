@@ -98,7 +98,7 @@
 		DC61DA412A39AEA500B0D31A /* TalaOyebaMasanoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalaOyebaMasanoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC61DA452A39AEA500B0D31A /* TalaOyebaMasanoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalaOyebaMasanoUITests.swift; sourceTree = "<group>"; };
 		DC61DA472A39AEA500B0D31A /* TalaOyebaMasanoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalaOyebaMasanoUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		DC61DA542A39B1F700B0D31A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DC61DA542A39B1F700B0D31A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		DC61DA662A39B90300B0D31A /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		DC61DA682A39B99D00B0D31A /* ViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
 		DC61DA6A2A39B9E800B0D31A /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
@@ -217,6 +217,7 @@
 		DC61DA232A39AEA200B0D31A /* TalaOyebaMasano */ = {
 			isa = PBXGroup;
 			children = (
+				DC61DA322A39AEA500B0D31A /* Info.plist */,
 				DC61DA652A39B8BB00B0D31A /* APIService */,
 				DC61DA642A39B8A900B0D31A /* Extension */,
 				DC61DA632A39B89900B0D31A /* CoreData */,
@@ -229,7 +230,6 @@
 				DC61DA2D2A39AEA500B0D31A /* Assets.xcassets */,
 				DC61DA542A39B1F700B0D31A /* GoogleService-Info.plist */,
 				DC61DA2F2A39AEA500B0D31A /* LaunchScreen.storyboard */,
-				DC61DA322A39AEA500B0D31A /* Info.plist */,
 			);
 			path = TalaOyebaMasano;
 			sourceTree = "<group>";
